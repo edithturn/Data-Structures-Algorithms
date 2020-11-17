@@ -25,3 +25,13 @@ class Solution:
 		root.rigth =  temp
 		ReverseTree(root.leff )
 		ReverseTree(root.right )
+
+
+
+if __name__ = "__main__"
+	root = TreeNode(94)
+	root.left = TreeNode()
+	root.right =  TreeNode()
+	root.right.left = TreeNode(15)
+	root.right.right = TreeNode(7)
+	res =  
