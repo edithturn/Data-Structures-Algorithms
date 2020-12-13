@@ -1,6 +1,10 @@
 # Data Structures (DS)
 
-![Unstructured Data](img/unstructured_data.png) ![Structured Data](img/structured_data.png)
+
+| Unstructured Data | Structured Data |
+| ------------- | ------------- |
+| ![Unstructured Data](img/unstructured_data.png)  | ![Structured Data](img/structured_data.png)  |
+
 
 In Computer Science a Data Structure (DS) is a way of organizing and store data in memory that enables efficient access and modification of the data.
 
