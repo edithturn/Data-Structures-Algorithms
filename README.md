@@ -23,14 +23,17 @@ There are many ways to organizing data in memory:
 # Big O Analysis
 
 # Algorithms
-Step by step solution to solve a problem. As an example we can use list (data structure) to order vegetables and then select just what we need to prepare a vegetable salad.
+Step by step solution to solve a problem. As an example we can use a list (data structure) to order vegetables and then select just the vegetables what we wish to prepare a vegetable salad.
 
 In computer Science an algorithms is a sequence of actions to solve a problem. Small procedure to solves a recurrent problem.
 
----
 <p align="center">
   <img width="460" height="300" src="img/algorithm.png">
 </p>
+
+| Algorithm | Solution |
+| ------------- | ------------- |
+| ![Algorithm](img/algorithm.png)  | ![Solution](img/salad_vegetable.png)  |
 
 # Notes
 * Data Structures and Algorithm are two different things.
