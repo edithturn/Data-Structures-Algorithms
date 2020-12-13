@@ -27,10 +27,6 @@ Step by step solution to solve a problem. As an example we can use a list (data 
 
 In computer Science an algorithms is a sequence of actions to solve a problem. Small procedure to solves a recurrent problem.
 
-<p align="center">
-  <img width="460" height="300" src="img/algorithm.png">
-</p>
-
 | Algorithm | Solution |
 | ------------- | ------------- |
 | ![Algorithm](img/algorithm.png)  | ![Solution](img/salad_vegetable.png)  |
