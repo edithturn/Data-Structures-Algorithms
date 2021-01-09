@@ -45,7 +45,7 @@ else:
 ## Loops
 ```python
 for item in list:
-    pritn item
+    print item
 
 while (total < max_val):
     total += values[i]
