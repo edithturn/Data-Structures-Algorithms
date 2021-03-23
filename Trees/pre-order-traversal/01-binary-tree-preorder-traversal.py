@@ -32,6 +32,7 @@ class SolutionIterative:
 
 node = Node(1)
 node.right =  Node(2)
+node.left =  None
 node.right.left = Node(3)
 
 print(SolutionRecursively().preorderTraversal(node))
