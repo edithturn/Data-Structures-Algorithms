@@ -5,11 +5,14 @@ class Node(object):
         self.left = left
         self.right = right
 
+# Recursive Way
 class SolutionRecursively:
     def preorderTraversal(self, root):
         if not root:
             return []
         return [root.val] + self.preorderTraversal(root.left) + self.preorderTraversal(root.right)
+
+# Iterative Way
 
 class SolutionIterative:
     def preorderTraversal(self, root):
@@ -37,3 +40,6 @@ node.right.left = Node(3)
 
 print(SolutionRecursively().preorderTraversal(node))
 print(SolutionIterative().preorderTraversal(node))
+
+
+# Morris traversal
