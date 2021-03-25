@@ -14,9 +14,28 @@ class SolutionRecursively:
 # Iterative Way
 class SolutionIterative:
     def inorderTraversal(self, root: Node):
-        return 1
+        if not root:
+            return []
+        stack = [root]
+        result = []
+        while stack:
+            root = stack.pop
+            if root.left is not None:
+                stack.append(root.left)
+                if root is not None:
+                    result.append(root.val)
+                if root.right is not None:
+                    stack.append(root)
+            return result
+
+
+
 node = Node(1)
 node.right = Node(2)
 node.right.left = Node(3)
-
 print(SolutionRecursively().inorderTraversal(node))
+
+node1 = Node(1)
+node1.right = Node(2)
+node1.right.left = Node(3)
+print(SolutionRecursively().inorderTraversal(node1))
