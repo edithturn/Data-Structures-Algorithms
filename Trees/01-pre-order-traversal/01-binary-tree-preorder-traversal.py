@@ -38,6 +38,12 @@ node.right =  Node(2)
 node.left =  None
 node.right.left = Node(3)
 
+#  1
+#   \   
+#    2
+#   /
+#  3
+
 print(SolutionRecursively().preorderTraversal(node))
 print(SolutionIterative().preorderTraversal(node))
 

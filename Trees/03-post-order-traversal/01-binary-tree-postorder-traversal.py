@@ -35,5 +35,11 @@ node = Node(1)
 node.right = Node(2)
 node.right.left = Node(3)
 
+#  1
+#   \   
+#    2
+#   /
+#  3
+
 print(SolutionRecursively().postorderTraversal(node))
 print(SolutionIterative().postorderTraversal(node))
