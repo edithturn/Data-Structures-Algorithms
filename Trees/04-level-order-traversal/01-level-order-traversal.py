@@ -4,17 +4,32 @@ class Node:
         self.left = left
         self.right = right
 
-class Solution:
+class SolutionIterative:
     def levelOrder(self, root: Node):
-        return 1
-
-
+        if root is None:
+            return []
+        queue = [root]
+        nex_queue = []
+        level =[]
+        result = []
+        while queue != []:
+            for root in queue:
+                level.append(root.val)
+                if root.left is not None:
+                    nex_queue.append(root.left)
+                if root.right is not None:
+                    nex_queue.append(root.right)
+            result.append(level)
+            level = []
+            queue = nex_queue
+            nex_queue = []
+        return result
 
 node = Node(3)
-node.right = Node(9)
-node.left = Node(20)
-node.left.right = Node(15)
-node.left.left = Node(7)
+node.left = Node(9)
+node.right = Node(20)
+node.right.left = Node(15)
+node.right.right = Node(7)
 
 #input root = [3,9,20,null,null,15,7]
 
@@ -24,5 +39,5 @@ node.left.left = Node(7)
 #    /  \
 #   15   7
 
-print(Solution().levelOrder(node))
+print(SolutionIterative().levelOrder(node))
         
