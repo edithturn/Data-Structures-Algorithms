@@ -15,6 +15,7 @@ class LinkedList:
 		while(my_list.next):
 			my_list = my_list.next
 		my_list.next = new_node
+
 	def print_list(self):
 		_list = self.head
 		while _list is not None:
